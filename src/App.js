@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Searchbar from "./components/SearchBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster, ToastProvider } from "react-hot-toast";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route path="/" element={<Searchbar />} />
         </Routes>
       </div>
+      <Toaster />
     </BrowserRouter>
   );
 }

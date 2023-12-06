@@ -1,5 +1,5 @@
 export const words = [
-  "Combo 2 Núm Ty Silicone Siêu Mềm Pigeon",
+"Combo 2 Núm Ty Silicone Siêu Mềm Pigeon",
 "USB Team Group E902 8GB - USB 2.0",
 "Ổ Cứng Di Động WD Elements 1TB 2.5 USB 3.0 - WDBUZG0010BBK - Hàng Chính Hãng",
 "Bình Ngâm Rượu, Nước Hoa Quả Kova  BNR2.7 2.7 Lít",
