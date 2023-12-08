@@ -39,7 +39,7 @@ const SearchBar = () => {
     }
     setName(e.target.value);
     const res = await axios.get(
-      `http://localhost:3002/crawl/load-product-suggestions/${e.target.value}`
+      `https://crawl-tiki-backend-thanhgiangsgu.vercel.app/crawl/load-product-suggestions/${e.target.value}`
     );
     setActiveSearch(res.data);
   };
@@ -75,7 +75,10 @@ const SearchBar = () => {
       sort: sort,
     };
     axios
-      .post("http://localhost:3002/crawl/data", payload)
+      .post(
+        "https://crawl-tiki-backend-thanhgiangsgu.vercel.app/crawl/data",
+        payload
+      )
       .then((response) => {
         setListData(response.data.fullData);
         setPageCount(response.data.pageCount);
